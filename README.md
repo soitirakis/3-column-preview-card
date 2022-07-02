@@ -9,7 +9,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- [GitHub Pages] 
+- [GitHub Pages] https://soitirakis.github.io/3-column-preview-card/
+- [GitHub Code] https://github.com/soitirakis/3-column-preview-card
 
 
 ### Continued development

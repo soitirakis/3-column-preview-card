@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&family=Outfit:wght@400;600;702&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Outfit:wght@400;600;702&display=swap');
+:root {
+  --sedan-color: hsl(31, 77%, 52%);
+  --suv-color: hsl(184, 100%, 22%);
+  --luxury-color: hsl(179, 100%, 13%);
+  --button-hedings: hsl(0,0%, 95%);
+  --description: hsla(0,0%, 100%, 0.7);
+}
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Big Shoulders Display";
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+/*the main container*/
+.container {
+  width: 375px;
+  margin: 0 auto;
+  background: var(--button-hedings);
+}
+/*the article*/
+.card {
+  padding: 50px;
+}
+.card-title, .card-button, .card-description {
+  color: var(--button-hedings);
+}
+/*titles*/
+.card-title {
+  text-transform: uppercase;
+  font-size: 35px;
+}
+/*description*/
+.card-description {
+  font-family: "Lexend Deca";
+}
+/*generic button*/
+.card-button {
+  border: 1px solid aliceblue;
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 16px 26px;
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  background-color: var(--button-hedings);
+}
+.card-button:hover {
+  cursor: pointer;
+  color: var(--button-hedings);
+  border: 1px solid var(--button-hedings);
+}
+/*sedan article*/
+.card-sedan {
+  background: var(--sedan-color);
+}
+.button-sedan {
+  color: var(--sedan-color);
+}
+.button-sedan:hover {
+  background: var(--sedan-color);
+}
+/*suv article*/
+.card-suv {
+  background: var(--suv-color);
+}
+.button-suv {
+  color: var(--suv-color);
+}
+.button-suv:hover {
+  background: var(--suv-color);
+}
+/*luxury article*/
+.card-luxury {
+background: var(--luxury-color);
+}
+.button-luxury {
+  color: var(--luxury-color);
+}
+.button-luxury:hover {
+  background: var(--luxury-color);
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+  }
+  .card {
+    flex: 1;
+  }
+}

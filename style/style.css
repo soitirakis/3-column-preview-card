@@ -21,7 +21,7 @@ html, body {
 .container {
   width: 100%;
   max-width: 375px;
-  margin: 0 auto;
+  margin: auto;
   background: var(--button-hedings);
 }
 /*the article*/

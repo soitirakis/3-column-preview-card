@@ -20,7 +20,7 @@ html, body {
 /*the main container*/
 .container {
   width: 100%;
-  max-width: 550px;
+  max-width: 375px;
   margin: 0 auto;
   background: var(--button-hedings);
 }

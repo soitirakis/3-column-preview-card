@@ -19,7 +19,7 @@ html, body {
 }
 /*the main container*/
 .container {
-  width: 375px;
+  width: 550px;
   margin: 0 auto;
   background: var(--button-hedings);
 }
